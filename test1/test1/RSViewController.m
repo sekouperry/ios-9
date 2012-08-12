@@ -27,6 +27,8 @@
     
     int i =100;
     NSLog(@"%d",i);
+    int j =100;
+    NSLog(@"%d",j);
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
