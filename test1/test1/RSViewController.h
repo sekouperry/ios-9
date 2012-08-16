@@ -10,4 +10,8 @@
 
 @interface RSViewController : UIViewController
 
+@property IBOutlet UITextField *tweetTextField;
+
+-(IBAction)tweetButtonPushed:(id)sender;
+
 @end

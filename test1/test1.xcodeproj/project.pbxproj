@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC746DBF15DC23F200B35A50 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC746DBE15DC23F200B35A50 /* Twitter.framework */; };
+		DC746DC215DD281500B35A50 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC746DC115DD281500B35A50 /* Accounts.framework */; };
 		DC7B269115D6A1C50065CF6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B269015D6A1C50065CF6E /* UIKit.framework */; };
 		DC7B269315D6A1C50065CF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B269215D6A1C50065CF6E /* Foundation.framework */; };
 		DC7B269515D6A1C50065CF6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B269415D6A1C50065CF6E /* CoreGraphics.framework */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC746DBE15DC23F200B35A50 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		DC746DC115DD281500B35A50 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		DC7B268C15D6A1C50065CF6E /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7B269015D6A1C50065CF6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC7B269215D6A1C50065CF6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC746DC215DD281500B35A50 /* Accounts.framework in Frameworks */,
+				DC746DBF15DC23F200B35A50 /* Twitter.framework in Frameworks */,
 				DC7B269115D6A1C50065CF6E /* UIKit.framework in Frameworks */,
 				DC7B269315D6A1C50065CF6E /* Foundation.framework in Frameworks */,
 				DC7B269515D6A1C50065CF6E /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,8 @@
 		DC7B268115D6A1C50065CF6E = {
 			isa = PBXGroup;
 			children = (
+				DC746DC115DD281500B35A50 /* Accounts.framework */,
+				DC746DBE15DC23F200B35A50 /* Twitter.framework */,
 				DC7B269615D6A1C50065CF6E /* test1 */,
 				DC7B26B415D6A1C50065CF6E /* test1Tests */,
 				DC7B268F15D6A1C50065CF6E /* Frameworks */,
@@ -435,6 +443,7 @@
 				DC7B26C115D6A1C50065CF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC7B26C215D6A1C50065CF6E /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +452,7 @@
 				DC7B26C415D6A1C50065CF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

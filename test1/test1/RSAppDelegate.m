@@ -16,7 +16,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[RSViewController alloc] initWithNibName:@"RSViewController" bundle:nil];
+    RSViewController *mainViewController = [[RSViewController alloc] initWithNibName:@"RSViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    
+    self.viewController = navigationController;
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
