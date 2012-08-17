@@ -22,6 +22,8 @@
 		DC7B26B115D6A1C50065CF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B269215D6A1C50065CF6E /* Foundation.framework */; };
 		DC7B26B915D6A1C50065CF6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC7B26B715D6A1C50065CF6E /* InfoPlist.strings */; };
 		DC7B26BC15D6A1C50065CF6E /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B26BB15D6A1C50065CF6E /* test1Tests.m */; };
+		DCEA703C15DE40FB00076558 /* RSTweetAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */; };
+		DCEA704115DE420F00076558 /* RSTweetService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA704015DE420F00076558 /* RSTweetService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		DC7B26B815D6A1C50065CF6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC7B26BA15D6A1C50065CF6E /* test1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1Tests.h; sourceTree = "<group>"; };
 		DC7B26BB15D6A1C50065CF6E /* test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1Tests.m; sourceTree = "<group>"; };
+		DCEA703A15DE40FB00076558 /* RSTweetAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTweetAccountManager.h; sourceTree = "<group>"; };
+		DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetAccountManager.m; sourceTree = "<group>"; };
+		DCEA703F15DE420F00076558 /* RSTweetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTweetService.h; sourceTree = "<group>"; };
+		DCEA704015DE420F00076558 /* RSTweetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		DC7B269615D6A1C50065CF6E /* test1 */ = {
 			isa = PBXGroup;
 			children = (
+				DCEA703D15DE419500076558 /* common */,
 				DC7B269F15D6A1C50065CF6E /* RSAppDelegate.h */,
 				DC7B26A015D6A1C50065CF6E /* RSAppDelegate.m */,
 				DC7B26A215D6A1C50065CF6E /* RSViewController.h */,
@@ -157,6 +164,25 @@
 				DC7B26B715D6A1C50065CF6E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCEA703D15DE419500076558 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA703E15DE41A000076558 /* tweet */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		DCEA703E15DE41A000076558 /* tweet */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA703A15DE40FB00076558 /* RSTweetAccountManager.h */,
+				DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */,
+				DCEA703F15DE420F00076558 /* RSTweetService.h */,
+				DCEA704015DE420F00076558 /* RSTweetService.m */,
+			);
+			name = tweet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +296,8 @@
 				DC7B269D15D6A1C50065CF6E /* main.m in Sources */,
 				DC7B26A115D6A1C50065CF6E /* RSAppDelegate.m in Sources */,
 				DC7B26A415D6A1C50065CF6E /* RSViewController.m in Sources */,
+				DCEA703C15DE40FB00076558 /* RSTweetAccountManager.m in Sources */,
+				DCEA704115DE420F00076558 /* RSTweetService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
