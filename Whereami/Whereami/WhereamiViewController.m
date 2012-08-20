@@ -9,9 +9,7 @@
 #import "WhereamiViewController.h"
 
 @interface WhereamiViewController ()
-{
-    CLLocationManager *locationManager;
-}
+
 @end
 
 @implementation WhereamiViewController
@@ -25,7 +23,6 @@
         [locationManager setDelegate:self];
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
         [locationManager setDistanceFilter:50];
-        [locationManager startUpdatingLocation];
     }
     
     return self;
@@ -36,6 +33,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [worldView setShowsUserLocation:YES];
 }
 
 - (void)viewDidUnload
@@ -58,5 +56,12 @@
 - (void)locationManager:(CLLocationManager *)manager
        didFailWithError:(NSError *)error{
     NSLog(@"could not find location:%@",error);
+}
+
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
+    CLLocationCoordinate2D loc =[userLocation coordinate];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(loc, 250, 250);
+    [worldView setRegion:region animated:YES];
+    
 }
 @end

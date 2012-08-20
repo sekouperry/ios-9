@@ -16,6 +16,7 @@
 		DCC209A415DFA692004F3751 /* WhereamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC209A315DFA692004F3751 /* WhereamiViewController.m */; };
 		DCC209A715DFA692004F3751 /* WhereamiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC209A515DFA692004F3751 /* WhereamiViewController.xib */; };
 		DCC209AE15DFA6D4004F3751 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC209AD15DFA6D4004F3751 /* CoreLocation.framework */; };
+		DCF553DE15E27E5E00F3969E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF553DD15E27E5E00F3969E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DCC209A315DFA692004F3751 /* WhereamiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiViewController.m; sourceTree = "<group>"; };
 		DCC209A615DFA692004F3751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereamiViewController.xib; sourceTree = "<group>"; };
 		DCC209AD15DFA6D4004F3751 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DCF553DD15E27E5E00F3969E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF553DE15E27E5E00F3969E /* MapKit.framework in Frameworks */,
 				DCC209AE15DFA6D4004F3751 /* CoreLocation.framework in Frameworks */,
 				DCC2099115DFA692004F3751 /* UIKit.framework in Frameworks */,
 				DCC2099315DFA692004F3751 /* Foundation.framework in Frameworks */,
@@ -53,6 +56,7 @@
 		DCC2098115DFA692004F3751 = {
 			isa = PBXGroup;
 			children = (
+				DCF553DD15E27E5E00F3969E /* MapKit.framework */,
 				DCC2099615DFA692004F3751 /* Whereami */,
 				DCC2098F15DFA692004F3751 /* Frameworks */,
 				DCC2098D15DFA692004F3751 /* Products */,
@@ -284,6 +288,7 @@
 				DCC209AC15DFA692004F3751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
