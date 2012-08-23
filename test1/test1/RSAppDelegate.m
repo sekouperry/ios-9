@@ -8,7 +8,7 @@
 
 #import "RSAppDelegate.h"
 
-#import "RSViewController.h"
+#import "RSUrlConnectionViewController.h"
 
 @implementation RSAppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    RSViewController *mainViewController = [[RSViewController alloc] initWithNibName:@"RSViewController" bundle:nil];
+    RSUrlConnectionViewController *mainViewController = [[RSUrlConnectionViewController alloc] initWithNibName:@"RSUrlConnectionViewController" bundle:nil];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
     self.viewController = navigationController;

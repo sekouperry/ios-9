@@ -24,6 +24,9 @@
 		DC7B26BC15D6A1C50065CF6E /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B26BB15D6A1C50065CF6E /* test1Tests.m */; };
 		DCEA703C15DE40FB00076558 /* RSTweetAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */; };
 		DCEA704115DE420F00076558 /* RSTweetService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA704015DE420F00076558 /* RSTweetService.m */; };
+		DCF1663315E67F31001B84F9 /* RSUrlConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1663115E67F31001B84F9 /* RSUrlConnectionViewController.m */; };
+		DCF1663415E67F31001B84F9 /* RSUrlConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF1663215E67F31001B84F9 /* RSUrlConnectionViewController.xib */; };
+		DCF1663815E67F7A001B84F9 /* RSUrlConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1663715E67F7A001B84F9 /* RSUrlConnectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,11 @@
 		DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetAccountManager.m; sourceTree = "<group>"; };
 		DCEA703F15DE420F00076558 /* RSTweetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTweetService.h; sourceTree = "<group>"; };
 		DCEA704015DE420F00076558 /* RSTweetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetService.m; sourceTree = "<group>"; };
+		DCF1663015E67F31001B84F9 /* RSUrlConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUrlConnectionViewController.h; sourceTree = "<group>"; };
+		DCF1663115E67F31001B84F9 /* RSUrlConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUrlConnectionViewController.m; sourceTree = "<group>"; };
+		DCF1663215E67F31001B84F9 /* RSUrlConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSUrlConnectionViewController.xib; sourceTree = "<group>"; };
+		DCF1663615E67F7A001B84F9 /* RSUrlConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUrlConnectionManager.h; sourceTree = "<group>"; };
+		DCF1663715E67F7A001B84F9 /* RSUrlConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUrlConnectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +136,15 @@
 				DCEA703D15DE419500076558 /* common */,
 				DC7B269F15D6A1C50065CF6E /* RSAppDelegate.h */,
 				DC7B26A015D6A1C50065CF6E /* RSAppDelegate.m */,
+				DCF1663015E67F31001B84F9 /* RSUrlConnectionViewController.h */,
+				DCF1663115E67F31001B84F9 /* RSUrlConnectionViewController.m */,
+				DCF1663215E67F31001B84F9 /* RSUrlConnectionViewController.xib */,
 				DC7B26A215D6A1C50065CF6E /* RSViewController.h */,
 				DC7B26A315D6A1C50065CF6E /* RSViewController.m */,
 				DC7B26A515D6A1C50065CF6E /* RSViewController.xib */,
 				DC7B269715D6A1C50065CF6E /* Supporting Files */,
+				DCF1663615E67F7A001B84F9 /* RSUrlConnectionManager.h */,
+				DCF1663715E67F7A001B84F9 /* RSUrlConnectionManager.m */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -259,6 +272,7 @@
 			files = (
 				DC7B269B15D6A1C50065CF6E /* InfoPlist.strings in Resources */,
 				DC7B26A715D6A1C50065CF6E /* RSViewController.xib in Resources */,
+				DCF1663415E67F31001B84F9 /* RSUrlConnectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +312,8 @@
 				DC7B26A415D6A1C50065CF6E /* RSViewController.m in Sources */,
 				DCEA703C15DE40FB00076558 /* RSTweetAccountManager.m in Sources */,
 				DCEA704115DE420F00076558 /* RSTweetService.m in Sources */,
+				DCF1663315E67F31001B84F9 /* RSUrlConnectionViewController.m in Sources */,
+				DCF1663815E67F7A001B84F9 /* RSUrlConnectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
