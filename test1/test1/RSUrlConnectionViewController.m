@@ -8,6 +8,8 @@
 
 #import "RSUrlConnectionViewController.h"
 #import "RSUrlConnectionManager.h"
+#import "SBJson.h"
+
 @interface RSUrlConnectionViewController ()
 
 @end
@@ -84,6 +86,8 @@
     {
         
         NSLog(@"ok");
+    
+        [self parse:@"{\"name\": \"John Smith\", \"age\": 33}"];
         //释放子线程里面的资源
         //释放资源的代码....
         /*结束子线程任务 CFRunLoopStop,This function forces rl to stop running and
@@ -94,6 +98,21 @@
         CFRunLoopStop(currentLoop);
         
         
+    }
+}
+
+-(void)parse:(NSString *)jsonString{
+    
+    SBJsonParser  *parser = [[SBJsonParser alloc] init];
+    SBJsonWriter *writer = [[SBJsonWriter alloc] init];
+    writer.humanReadable = YES;
+    writer.sortKeys = YES;
+    
+    id object = [parser objectWithString:jsonString];
+    if (object) {
+        NSLog(@"%@",[writer stringWithObject:object]);
+    } else {
+        NSLog(@"An error occurred: %@", parser.error);
     }
 }
 
