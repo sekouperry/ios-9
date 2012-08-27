@@ -15,7 +15,7 @@
 -(void)request{
     
     
-    NSString *urlString =@"http://www.google.com";
+    NSString *urlString =@"http://www.google.co.jp";
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
     
@@ -28,12 +28,16 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
+    NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
     
-    
+    NSArray *cookies = [cookieStorage cookiesForURL:[NSURL URLWithString:@"http://www.google.co.jp"]];
+    NSLog(@"cookie:%@",cookies);
+
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection{
     NSLog(@"conncetion finish");
     isFinish = [NSNumber numberWithBool:YES];
 }
-
-
 
 @end

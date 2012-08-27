@@ -45,6 +45,10 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    
+    NSArray *cookies = [cookieStorage cookiesForURL:[NSURL URLWithString:@"http://www.google.co.jp"]];
+    NSLog(@"cookie:%@",cookies);
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
