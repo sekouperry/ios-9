@@ -19,6 +19,8 @@
     CFRunLoopRef currentLoop;
     RSUrlConnectionManager *manager;
 }
+@synthesize label;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,13 +34,21 @@
 {
     [super viewDidLoad];
     
-    //创建一个新的线程，其中object:nil部分可以作为selector的参数传递，在这里没有参数，设为nil
-    NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(playerThread) object:nil];
+    if(label.text == @"Label"){
+        //创建一个新的线程，其中object:nil部分可以作为selector的参数传递，在这里没有参数，设为nil
+        NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(playerThread) object:nil];
+        
+        //开启线程，如果是利用NSOperation，只需要加入到NSOperationQueue里面去就好了，queue自己会在合适的时机执行线程，而不需要程序员自己去控制。
+        [thread start];
+    }else{
+        NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+        
+        NSArray *cookies = [cookieStorage cookiesForURL:[NSURL URLWithString:@"http://www.google.co.jp"]];
+        NSLog(@"cookie:%@",cookies);
+        label.text = [cookies description];
+    }
     
-    //开启线程，如果是利用NSOperation，只需要加入到NSOperationQueue里面去就好了，queue自己会在合适的时机执行线程，而不需要程序员自己去控制。
-    [thread start];
     
-    // Do any additional setup after loading the view from its nib.
     
 }
 

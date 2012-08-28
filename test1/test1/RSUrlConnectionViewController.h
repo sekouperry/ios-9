@@ -10,4 +10,6 @@
 
 @interface RSUrlConnectionViewController : UIViewController
 
+
+@property IBOutlet UILabel *label;
 @end

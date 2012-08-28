@@ -125,11 +125,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "test1/RSUrlConnectionViewController.m"
-         timestampString = "367601941.870833"
+         timestampString = "367860657.395751"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "88"
-         endingLineNumber = "88"
+         startingLineNumber = "98"
+         endingLineNumber = "98"
          landmarkName = "-checkState:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -138,11 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "test1/RSUrlConnectionViewController.m"
-         timestampString = "367601941.870833"
+         timestampString = "367860657.395751"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "85"
-         endingLineNumber = "85"
+         startingLineNumber = "95"
+         endingLineNumber = "95"
          landmarkName = "-checkState:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -151,11 +151,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "test1/RSUrlConnectionViewController.m"
-         timestampString = "367602772.119375"
+         timestampString = "367860657.395751"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "90"
-         endingLineNumber = "90"
+         startingLineNumber = "100"
+         endingLineNumber = "100"
          landmarkName = "-checkState:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -170,6 +170,19 @@
          startingLineNumber = "39"
          endingLineNumber = "39"
          landmarkName = "-connectionDidFinishLoading:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "test1/RSUrlConnectionViewController.m"
+         timestampString = "367860706.608571"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "37"
+         endingLineNumber = "37"
+         landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
