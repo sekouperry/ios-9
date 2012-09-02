@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC77F72515F12D4F0074CFA2 /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DC77F72415F12D4F0074CFA2 /* BNRMapPoint.m */; };
 		DCC2099115DFA692004F3751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC2099015DFA692004F3751 /* UIKit.framework */; };
 		DCC2099315DFA692004F3751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC2099215DFA692004F3751 /* Foundation.framework */; };
 		DCC2099515DFA692004F3751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC2099415DFA692004F3751 /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC77F72315F12D4F0074CFA2 /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		DC77F72415F12D4F0074CFA2 /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
 		DCC2098C15DFA692004F3751 /* Whereami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whereami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC2099015DFA692004F3751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCC2099215DFA692004F3751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,8 @@
 				DCC209A315DFA692004F3751 /* WhereamiViewController.m */,
 				DCC209A515DFA692004F3751 /* WhereamiViewController.xib */,
 				DCC2099715DFA692004F3751 /* Supporting Files */,
+				DC77F72315F12D4F0074CFA2 /* BNRMapPoint.h */,
+				DC77F72415F12D4F0074CFA2 /* BNRMapPoint.m */,
 			);
 			path = Whereami;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				DCC2099D15DFA692004F3751 /* main.m in Sources */,
 				DCC209A115DFA692004F3751 /* WhereamiAppDelegate.m in Sources */,
 				DCC209A415DFA692004F3751 /* WhereamiViewController.m in Sources */,
+				DC77F72515F12D4F0074CFA2 /* BNRMapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

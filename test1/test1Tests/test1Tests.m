@@ -7,26 +7,32 @@
 //
 
 #import "test1Tests.h"
+#import "RSConnectionManager.h"
 
 @implementation test1Tests
+
+RSConnectionManager *connectionManager;
 
 - (void)setUp
 {
     [super setUp];
     
     // Set-up code here.
+    connectionManager = [[RSConnectionManager alloc]init];
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
+    connectionManager = nil;
     [super tearDown];
 }
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in test1Tests");
+    [connectionManager request:@"http://www.google.co.jp"];
+    
+    STAssertNotNil(connectionManager, @"connection manager must no nil");
 }
 
 @end

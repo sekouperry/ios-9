@@ -34,6 +34,7 @@
 		DC7B26B115D6A1C50065CF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B269215D6A1C50065CF6E /* Foundation.framework */; };
 		DC7B26B915D6A1C50065CF6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC7B26B715D6A1C50065CF6E /* InfoPlist.strings */; };
 		DC7B26BC15D6A1C50065CF6E /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B26BB15D6A1C50065CF6E /* test1Tests.m */; };
+		DCCD524015F3693900F28398 /* RSConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD523F15F3693900F28398 /* RSConnectionManager.m */; };
 		DCEA703C15DE40FB00076558 /* RSTweetAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */; };
 		DCEA704115DE420F00076558 /* RSTweetService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA704015DE420F00076558 /* RSTweetService.m */; };
 		DCF1663315E67F31001B84F9 /* RSUrlConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1663115E67F31001B84F9 /* RSUrlConnectionViewController.m */; };
@@ -98,6 +99,8 @@
 		DC7B26B815D6A1C50065CF6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC7B26BA15D6A1C50065CF6E /* test1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1Tests.h; sourceTree = "<group>"; };
 		DC7B26BB15D6A1C50065CF6E /* test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1Tests.m; sourceTree = "<group>"; };
+		DCCD523E15F3693900F28398 /* RSConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSConnectionManager.h; sourceTree = "<group>"; };
+		DCCD523F15F3693900F28398 /* RSConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSConnectionManager.m; sourceTree = "<group>"; };
 		DCEA703A15DE40FB00076558 /* RSTweetAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTweetAccountManager.h; sourceTree = "<group>"; };
 		DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetAccountManager.m; sourceTree = "<group>"; };
 		DCEA703F15DE420F00076558 /* RSTweetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTweetService.h; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				DC7B269715D6A1C50065CF6E /* Supporting Files */,
 				DCF1663615E67F7A001B84F9 /* RSUrlConnectionManager.h */,
 				DCF1663715E67F7A001B84F9 /* RSUrlConnectionManager.m */,
+				DCCD523E15F3693900F28398 /* RSConnectionManager.h */,
+				DCCD523F15F3693900F28398 /* RSConnectionManager.m */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -396,6 +401,7 @@
 				DC7825EF15E925BE00178D58 /* SBJsonTokeniser.m in Sources */,
 				DC7825F015E925BE00178D58 /* SBJsonUTF8Stream.m in Sources */,
 				DC7825F115E925BE00178D58 /* SBJsonWriter.m in Sources */,
+				DCCD524015F3693900F28398 /* RSConnectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
