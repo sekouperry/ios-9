@@ -18,7 +18,7 @@ RSConnectionManager *connectionManager;
     [super setUp];
     
     // Set-up code here.
-    connectionManager = [[RSConnectionManager alloc]init];
+    //connectionManager = [[RSConnectionManager alloc]init];
 }
 
 - (void)tearDown
