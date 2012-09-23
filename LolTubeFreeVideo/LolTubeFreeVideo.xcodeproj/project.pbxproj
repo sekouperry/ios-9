@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC917E24160606BA001292DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC917E23160606BA001292DD /* UIKit.framework */; };
+		DC917E26160606BA001292DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC917E25160606BA001292DD /* Foundation.framework */; };
+		DC917E28160606BA001292DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC917E27160606BA001292DD /* CoreGraphics.framework */; };
+		DC917E2E160606BA001292DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC917E2C160606BA001292DD /* InfoPlist.strings */; };
+		DC917E30160606BA001292DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC917E2F160606BA001292DD /* main.m */; };
+		DC917E34160606BA001292DD /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC917E33160606BA001292DD /* RSAppDelegate.m */; };
+		DC917E37160606BA001292DD /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC917E36160606BA001292DD /* RSViewController.m */; };
+		DC917E3A160606BA001292DD /* RSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC917E38160606BA001292DD /* RSViewController.xib */; };
+		DC917E42160606BA001292DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC917E41160606BA001292DD /* SenTestingKit.framework */; };
+		DC917E43160606BA001292DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC917E23160606BA001292DD /* UIKit.framework */; };
+		DC917E44160606BA001292DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC917E25160606BA001292DD /* Foundation.framework */; };
+		DC917E4C160606BA001292DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC917E4A160606BA001292DD /* InfoPlist.strings */; };
+		DC917E4F160606BA001292DD /* LolTubeFreeVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC917E4E160606BA001292DD /* LolTubeFreeVideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC917E45160606BA001292DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC917E16160606B9001292DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC917E1E160606B9001292DD;
+			remoteInfo = LolTubeFreeVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC917E1F160606BA001292DD /* LolTubeFreeVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LolTubeFreeVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC917E23160606BA001292DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC917E25160606BA001292DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC917E27160606BA001292DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC917E2B160606BA001292DD /* LolTubeFreeVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LolTubeFreeVideo-Info.plist"; sourceTree = "<group>"; };
+		DC917E2D160606BA001292DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC917E2F160606BA001292DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC917E31160606BA001292DD /* LolTubeFreeVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LolTubeFreeVideo-Prefix.pch"; sourceTree = "<group>"; };
+		DC917E32160606BA001292DD /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		DC917E33160606BA001292DD /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		DC917E35160606BA001292DD /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		DC917E36160606BA001292DD /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		DC917E39160606BA001292DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSViewController.xib; sourceTree = "<group>"; };
+		DC917E40160606BA001292DD /* LolTubeFreeVideoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LolTubeFreeVideoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC917E41160606BA001292DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC917E49160606BA001292DD /* LolTubeFreeVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LolTubeFreeVideoTests-Info.plist"; sourceTree = "<group>"; };
+		DC917E4B160606BA001292DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC917E4D160606BA001292DD /* LolTubeFreeVideoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LolTubeFreeVideoTests.h; sourceTree = "<group>"; };
+		DC917E4E160606BA001292DD /* LolTubeFreeVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LolTubeFreeVideoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC917E1C160606B9001292DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC917E24160606BA001292DD /* UIKit.framework in Frameworks */,
+				DC917E26160606BA001292DD /* Foundation.framework in Frameworks */,
+				DC917E28160606BA001292DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC917E3C160606BA001292DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC917E42160606BA001292DD /* SenTestingKit.framework in Frameworks */,
+				DC917E43160606BA001292DD /* UIKit.framework in Frameworks */,
+				DC917E44160606BA001292DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC917E14160606B9001292DD = {
+			isa = PBXGroup;
+			children = (
+				DC917E29160606BA001292DD /* LolTubeFreeVideo */,
+				DC917E47160606BA001292DD /* LolTubeFreeVideoTests */,
+				DC917E22160606BA001292DD /* Frameworks */,
+				DC917E20160606BA001292DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC917E20160606BA001292DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC917E1F160606BA001292DD /* LolTubeFreeVideo.app */,
+				DC917E40160606BA001292DD /* LolTubeFreeVideoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC917E22160606BA001292DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC917E23160606BA001292DD /* UIKit.framework */,
+				DC917E25160606BA001292DD /* Foundation.framework */,
+				DC917E27160606BA001292DD /* CoreGraphics.framework */,
+				DC917E41160606BA001292DD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC917E29160606BA001292DD /* LolTubeFreeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				DC917E32160606BA001292DD /* RSAppDelegate.h */,
+				DC917E33160606BA001292DD /* RSAppDelegate.m */,
+				DC917E35160606BA001292DD /* RSViewController.h */,
+				DC917E36160606BA001292DD /* RSViewController.m */,
+				DC917E38160606BA001292DD /* RSViewController.xib */,
+				DC917E2A160606BA001292DD /* Supporting Files */,
+			);
+			path = LolTubeFreeVideo;
+			sourceTree = "<group>";
+		};
+		DC917E2A160606BA001292DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC917E2B160606BA001292DD /* LolTubeFreeVideo-Info.plist */,
+				DC917E2C160606BA001292DD /* InfoPlist.strings */,
+				DC917E2F160606BA001292DD /* main.m */,
+				DC917E31160606BA001292DD /* LolTubeFreeVideo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC917E47160606BA001292DD /* LolTubeFreeVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC917E4D160606BA001292DD /* LolTubeFreeVideoTests.h */,
+				DC917E4E160606BA001292DD /* LolTubeFreeVideoTests.m */,
+				DC917E48160606BA001292DD /* Supporting Files */,
+			);
+			path = LolTubeFreeVideoTests;
+			sourceTree = "<group>";
+		};
+		DC917E48160606BA001292DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC917E49160606BA001292DD /* LolTubeFreeVideoTests-Info.plist */,
+				DC917E4A160606BA001292DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC917E1E160606B9001292DD /* LolTubeFreeVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC917E52160606BA001292DD /* Build configuration list for PBXNativeTarget "LolTubeFreeVideo" */;
+			buildPhases = (
+				DC917E1B160606B9001292DD /* Sources */,
+				DC917E1C160606B9001292DD /* Frameworks */,
+				DC917E1D160606B9001292DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LolTubeFreeVideo;
+			productName = LolTubeFreeVideo;
+			productReference = DC917E1F160606BA001292DD /* LolTubeFreeVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC917E3F160606BA001292DD /* LolTubeFreeVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC917E55160606BA001292DD /* Build configuration list for PBXNativeTarget "LolTubeFreeVideoTests" */;
+			buildPhases = (
+				DC917E3B160606BA001292DD /* Sources */,
+				DC917E3C160606BA001292DD /* Frameworks */,
+				DC917E3D160606BA001292DD /* Resources */,
+				DC917E3E160606BA001292DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC917E46160606BA001292DD /* PBXTargetDependency */,
+			);
+			name = LolTubeFreeVideoTests;
+			productName = LolTubeFreeVideoTests;
+			productReference = DC917E40160606BA001292DD /* LolTubeFreeVideoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC917E16160606B9001292DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "郭 輝平";
+			};
+			buildConfigurationList = DC917E19160606B9001292DD /* Build configuration list for PBXProject "LolTubeFreeVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC917E14160606B9001292DD;
+			productRefGroup = DC917E20160606BA001292DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC917E1E160606B9001292DD /* LolTubeFreeVideo */,
+				DC917E3F160606BA001292DD /* LolTubeFreeVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC917E1D160606B9001292DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC917E2E160606BA001292DD /* InfoPlist.strings in Resources */,
+				DC917E3A160606BA001292DD /* RSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC917E3D160606BA001292DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC917E4C160606BA001292DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC917E3E160606BA001292DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC917E1B160606B9001292DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC917E30160606BA001292DD /* main.m in Sources */,
+				DC917E34160606BA001292DD /* RSAppDelegate.m in Sources */,
+				DC917E37160606BA001292DD /* RSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC917E3B160606BA001292DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC917E4F160606BA001292DD /* LolTubeFreeVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC917E46160606BA001292DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC917E1E160606B9001292DD /* LolTubeFreeVideo */;
+			targetProxy = DC917E45160606BA001292DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC917E2C160606BA001292DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC917E2D160606BA001292DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC917E38160606BA001292DD /* RSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC917E39160606BA001292DD /* en */,
+			);
+			name = RSViewController.xib;
+			sourceTree = "<group>";
+		};
+		DC917E4A160606BA001292DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC917E4B160606BA001292DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC917E50160606BA001292DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC917E51160606BA001292DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC917E53160606BA001292DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LolTubeFreeVideo/LolTubeFreeVideo-Prefix.pch";
+				INFOPLIST_FILE = "LolTubeFreeVideo/LolTubeFreeVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC917E54160606BA001292DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LolTubeFreeVideo/LolTubeFreeVideo-Prefix.pch";
+				INFOPLIST_FILE = "LolTubeFreeVideo/LolTubeFreeVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC917E56160606BA001292DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LolTubeFreeVideo.app/LolTubeFreeVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LolTubeFreeVideo/LolTubeFreeVideo-Prefix.pch";
+				INFOPLIST_FILE = "LolTubeFreeVideoTests/LolTubeFreeVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC917E57160606BA001292DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LolTubeFreeVideo.app/LolTubeFreeVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LolTubeFreeVideo/LolTubeFreeVideo-Prefix.pch";
+				INFOPLIST_FILE = "LolTubeFreeVideoTests/LolTubeFreeVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC917E19160606B9001292DD /* Build configuration list for PBXProject "LolTubeFreeVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC917E50160606BA001292DD /* Debug */,
+				DC917E51160606BA001292DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC917E52160606BA001292DD /* Build configuration list for PBXNativeTarget "LolTubeFreeVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC917E53160606BA001292DD /* Debug */,
+				DC917E54160606BA001292DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC917E55160606BA001292DD /* Build configuration list for PBXNativeTarget "LolTubeFreeVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC917E56160606BA001292DD /* Debug */,
+				DC917E57160606BA001292DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC917E16160606B9001292DD /* Project object */;
+}

@@ -37,6 +37,9 @@
 		DCCD524015F3693900F28398 /* RSConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD523F15F3693900F28398 /* RSConnectionManager.m */; };
 		DCEA703C15DE40FB00076558 /* RSTweetAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */; };
 		DCEA704115DE420F00076558 /* RSTweetService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA704015DE420F00076558 /* RSTweetService.m */; };
+		DCEB1923160768C800BDA581 /* libGDataTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEB1919160767A700BDA581 /* libGDataTouchStaticLib.a */; };
+		DCEB1925160768EE00BDA581 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEB1924160768EE00BDA581 /* SystemConfiguration.framework */; };
+		DCEB1927160768F400BDA581 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEB1926160768F400BDA581 /* Security.framework */; };
 		DCF1663315E67F31001B84F9 /* RSUrlConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1663115E67F31001B84F9 /* RSUrlConnectionViewController.m */; };
 		DCF1663415E67F31001B84F9 /* RSUrlConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF1663215E67F31001B84F9 /* RSUrlConnectionViewController.xib */; };
 		DCF1663815E67F7A001B84F9 /* RSUrlConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1663715E67F7A001B84F9 /* RSUrlConnectionManager.m */; };
@@ -49,6 +52,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = DC7B268B15D6A1C50065CF6E;
 			remoteInfo = test1;
+		};
+		DCEB1916160767A700BDA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GDataFramework;
+		};
+		DCEB1918160767A700BDA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1C6E0F1027B3CE00B46459;
+			remoteInfo = GDataTouchStaticLib;
+		};
+		DCEB191A160767A700BDA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F14A9DD0B1276B70072EBB8;
+			remoteInfo = GDataUnitTests;
+		};
+		DCEB191C160767A700BDA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F85E018103B83B700B4C418;
+			remoteInfo = GDataIPhoneUnitTests;
+		};
+		DCEB191E160767A700BDA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
+		};
+		DCEB19211607686900BDA581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1C6E0E1027B3CE00B46459;
+			remoteInfo = GDataTouchStaticLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -105,6 +150,9 @@
 		DCEA703B15DE40FB00076558 /* RSTweetAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetAccountManager.m; sourceTree = "<group>"; };
 		DCEA703F15DE420F00076558 /* RSTweetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTweetService.h; sourceTree = "<group>"; };
 		DCEA704015DE420F00076558 /* RSTweetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTweetService.m; sourceTree = "<group>"; };
+		DCEB190A160767A700BDA581 /* GData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GData.xcodeproj; path = "../../../soft/gdata-objectivec-client-read-only/Source/GData.xcodeproj"; sourceTree = "<group>"; };
+		DCEB1924160768EE00BDA581 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DCEB1926160768F400BDA581 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DCF1663015E67F31001B84F9 /* RSUrlConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUrlConnectionViewController.h; sourceTree = "<group>"; };
 		DCF1663115E67F31001B84F9 /* RSUrlConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUrlConnectionViewController.m; sourceTree = "<group>"; };
 		DCF1663215E67F31001B84F9 /* RSUrlConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSUrlConnectionViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +165,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEB1927160768F400BDA581 /* Security.framework in Frameworks */,
+				DCEB1925160768EE00BDA581 /* SystemConfiguration.framework in Frameworks */,
+				DCEB1923160768C800BDA581 /* libGDataTouchStaticLib.a in Frameworks */,
 				DC746DC215DD281500B35A50 /* Accounts.framework in Frameworks */,
 				DC746DBF15DC23F200B35A50 /* Twitter.framework in Frameworks */,
 				DC7B269115D6A1C50065CF6E /* UIKit.framework in Frameworks */,
@@ -173,6 +224,9 @@
 		DC7B268115D6A1C50065CF6E = {
 			isa = PBXGroup;
 			children = (
+				DCEB1926160768F400BDA581 /* Security.framework */,
+				DCEB1924160768EE00BDA581 /* SystemConfiguration.framework */,
+				DCEB190A160767A700BDA581 /* GData.xcodeproj */,
 				DC746DC115DD281500B35A50 /* Accounts.framework */,
 				DC746DBE15DC23F200B35A50 /* Twitter.framework */,
 				DC7B269615D6A1C50065CF6E /* test1 */,
@@ -215,11 +269,11 @@
 				DC7B26A215D6A1C50065CF6E /* RSViewController.h */,
 				DC7B26A315D6A1C50065CF6E /* RSViewController.m */,
 				DC7B26A515D6A1C50065CF6E /* RSViewController.xib */,
-				DC7B269715D6A1C50065CF6E /* Supporting Files */,
 				DCF1663615E67F7A001B84F9 /* RSUrlConnectionManager.h */,
 				DCF1663715E67F7A001B84F9 /* RSUrlConnectionManager.m */,
 				DCCD523E15F3693900F28398 /* RSConnectionManager.h */,
 				DCCD523F15F3693900F28398 /* RSConnectionManager.m */,
+				DC7B269715D6A1C50065CF6E /* Supporting Files */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -273,6 +327,18 @@
 			name = tweet;
 			sourceTree = "<group>";
 		};
+		DCEB190B160767A700BDA581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEB1917160767A700BDA581 /* GData.framework */,
+				DCEB1919160767A700BDA581 /* libGDataTouchStaticLib.a */,
+				DCEB191B160767A700BDA581 /* GDataUnitTests.octest */,
+				DCEB191D160767A700BDA581 /* GDataIPhoneUnitTests.octest */,
+				DCEB191F160767A700BDA581 /* DevelopmentTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,6 +353,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DCEB19221607686900BDA581 /* PBXTargetDependency */,
 			);
 			name = test1;
 			productName = test1;
@@ -332,6 +399,12 @@
 			mainGroup = DC7B268115D6A1C50065CF6E;
 			productRefGroup = DC7B268D15D6A1C50065CF6E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DCEB190B160767A700BDA581 /* Products */;
+					ProjectRef = DCEB190A160767A700BDA581 /* GData.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DC7B268B15D6A1C50065CF6E /* test1 */,
@@ -339,6 +412,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DCEB1917160767A700BDA581 /* GData.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GData.framework;
+			remoteRef = DCEB1916160767A700BDA581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCEB1919160767A700BDA581 /* libGDataTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGDataTouchStaticLib.a;
+			remoteRef = DCEB1918160767A700BDA581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCEB191B160767A700BDA581 /* GDataUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GDataUnitTests.octest;
+			remoteRef = DCEB191A160767A700BDA581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCEB191D160767A700BDA581 /* GDataIPhoneUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GDataIPhoneUnitTests.octest;
+			remoteRef = DCEB191C160767A700BDA581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCEB191F160767A700BDA581 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = DCEB191E160767A700BDA581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DC7B268A15D6A1C50065CF6E /* Resources */ = {
@@ -420,6 +531,11 @@
 			isa = PBXTargetDependency;
 			target = DC7B268B15D6A1C50065CF6E /* test1 */;
 			targetProxy = DC7B26B215D6A1C50065CF6E /* PBXContainerItemProxy */;
+		};
+		DCEB19221607686900BDA581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDataTouchStaticLib;
+			targetProxy = DCEB19211607686900BDA581 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,7 +621,17 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test1/test1-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "test1/test1-Info.plist";
+				OTHER_CFLAGS = (
+					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -516,7 +642,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test1/test1-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "test1/test1-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
